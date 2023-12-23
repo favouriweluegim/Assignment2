@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="alt.css"/>
+</head>
+<body>
+    <div class="all">
+    <section class="first">
+        <div class="pin">
+            <img src="./logo.png"/>
+            <p class="grey">For Individuals</p>
+            <p class="dem">
+                Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.
+            </p>
+        </div>
+    </section>
+    <section class="second">
+        <form action="/submit_data" method="post">
+        <div class="okay">
+            <div class="each">
+                <label for="fname">First name</label><br/>
+                <input type="text" id="fname" name="fname" placeholder="Ikechukwu" required>
+            </div>
+            <div class="each">
+                <label for="lname">Last name</label><br/>
+                <input type="text" id="fname" name="fname" placeholder="" required>
+            </div>
+            <div class="each">
+                <label for="gender">Gender</label>
+            <select name="gender" id="Gender" required>
+                <option selected disabled hidden>Select gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+            </div>
+            <div class="each">
+                <label for="dob">Date of birth</label><br>
+                <input type="date" id="dob" name="dob"  placeholder="Select here" required>
+            </div>
+            <div class="each">
+                <label for="weight">Weight(KG)</label><br/>
+                <input type="text" id="weight" name="weight" placeholder="Enter Weight" required>
+            </div>
+            <div class="each">
+                <label for="height">Height(CM)</label><br/>
+                <input type="text" id="height" name="height" placeholder="Enter height here" required>
+            </div>
+            </div>
+            <div class="old">
+            <div class="eh">
+                <label for="activity">Activity Level</label>
+                <select class="act" id="activity" required>
+                    <option selected disabled hidden>Select here</option> 
+                    <option>No option available</option>
+                </select>
+            </div>
+            <div class="eh">
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password">
+            </div>
+            <div class="eh">
+                <button>Register</button>
+            </div>
+
+            <p class="end">By clicking continue Register, you agree to our <a href="#">Terms of use</a> and our <a href="#">Privacy Policy.</a> </p>
+
+            </div>
+        </form>
+    </section>
+    </div>
+</body>
+</html>
